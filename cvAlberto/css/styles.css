@@ -1,0 +1,168 @@
+.titleClas{
+  background-color: #7579e7;
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #f4f9f9;
+}
+
+/* GENERAL RULES */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p{
+    line-height: 2.5;
+}
+
+/* main containers */
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* -- NAV BAR --  */
+
+/* navbar by default has 16 px padding on sides on bootsrap
+so we are setting it to 0 manually and setting a bottom paddings*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+/* tindog logo on navbar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.prof{
+    padding: 1% 3% 15%;
+}
+/* spacing between the "blocks" that hold nav bar links */
+.nav-item{
+  padding: 0 18px;
+}
+
+/* links on navbar (contact,pricing,download) */
+.nav-link{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* download buttons on title screen */
+.downloadButton{
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone dog for welcome screen */
+.profImg{
+  width: 60%;
+  margin-left: 15%;
+  /* transform: rotate(25deg); */
+}
+/* title screen ends here  */
+/* features starts here */
+
+.featuresClas{
+  background-color: #f4f9f9;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* color: #f4f9f9; */
+    padding: 5% 0;
+}
+
+.featureBox{
+    text-align: center;
+    padding: 10% 3%;
+}
+
+ .featuresClas p{
+   color: #8f8f8f;
+ }
+/* icon colors  */
+
+.iconClas{
+  color:#7579e7;
+}
+
+/* icon hovers */
+/* quick note: make sure there is no space before hover */
+.iconClas:hover{
+  color: #1d2d50;
+}
+/* -Features ends here- */
+/* -Testimonials starts here- */
+.testimonialsClas{
+
+  text-align: center;
+  background-color: #7579e7;
+  color: #fff;
+}
+
+.testimonialsImg{
+  width: 60%;
+  border-radius: 15%;
+  /* this radius makes circular images */
+  margin: 20px;
+}
+
+.carousel-item{
+      padding: 7% 15%;
+}
+
+#testimonialCarousel{
+  padding: 15% 5%;
+}
+/* testimonials ends here */
+/* press section starts here  */
+
+
+.pressLogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+  color: #fff;
+}
+
+.bottomContainer {
+  padding-top: 100px;
+  background-color: #f4f9f9;
+  padding-bottom: 40px;
+  line-height: 2;
+  text-align: center;
+}
+
+.footerIcon{
+  color: #7579e7;
+  margin: 20px 10px;
+  font-size: 1.5rem;
+}
+
+.footerClas {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2% 15%;
+  background-color: #f4f9f9;
+  padding-bottom: 20px;
+  line-height: 5;
+  text-align: center;
+  color: #000;
+}
+
+.h3foot{
+  color: #7579e7;
+}
